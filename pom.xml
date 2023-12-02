@@ -3,12 +3,11 @@
   <parent>
     <groupId>org.jenkins-ci.plugins</groupId>
     <artifactId>plugin</artifactId>
-    <version>3.51</version>
+    <version>4.51</version>
     <relativePath />
   </parent>
   <properties>
-    <jenkins.version>2.176.4</jenkins.version><!-- which version of Jenkins is this plugin built against? -->
-    <java.level>8</java.level>
+    <jenkins.version>2.346.3</jenkins.version><!-- which version of Jenkins is this plugin built against? -->
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
