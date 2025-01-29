@@ -1,29 +1,17 @@
 package org.jenkinsci.plugins.commands;
 
 import java.io.ByteArrayOutputStream;
-import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.util.Arrays;
 import java.util.Collection;
 
-import org.kohsuke.args4j.Argument;
 import org.kohsuke.args4j.CmdLineException;
 import org.kohsuke.args4j.CmdLineParser;
-import org.kohsuke.args4j.Option;
-import org.kohsuke.args4j.spi.Setter;
-
-import com.sun.jna.StringArray;
 
 import hudson.Extension;
-import hudson.model.AbstractBuild;
-import hudson.model.AbstractProject;
-import hudson.plugins.im.IMChat;
-import hudson.plugins.im.IMException;
-import hudson.plugins.im.IMMessage;
 import hudson.plugins.im.Sender;
 import hudson.plugins.im.bot.AbstractTextSendingCommand;
 import hudson.plugins.im.bot.Bot;
-import hudson.plugins.im.bot.BotCommand;
 
 @Extension(optional=true)
 public class ShowLogIMCommand extends AbstractTextSendingCommand {
