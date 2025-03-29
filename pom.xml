@@ -3,30 +3,22 @@
   <parent>
     <groupId>org.jenkins-ci.plugins</groupId>
     <artifactId>plugin</artifactId>
-    <version>3.51</version>
+    <version>4.88</version>
     <relativePath />
   </parent>
   <properties>
-    <jenkins.version>2.176.4</jenkins.version><!-- which version of Jenkins is this plugin built against? -->
-    <java.level>8</java.level>
+    <jenkins.version>2.462.3</jenkins.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
   <scm>
-     <connection>scm:git:ssh://github.com/jenkinsci/log-command-plugin.git</connection>
+     <connection>scm:git:https://github.com/jenkinsci/log-command-plugin.git</connection>
      <developerConnection>scm:git:ssh://git@github.com/jenkinsci/log-command-plugin.git</developerConnection>
      <url>https://github.com/jenkinsci/log-command-plugin.git</url>
     <tag>HEAD</tag>
   </scm>
 
   <url>https://github.com/jenkinsci/log-command-plugin</url>
-
-  <developers>
-     <developer>
-        <id>ialbors</id>
-        <name>Ignacio Albors</name>
-     </developer>
-  </developers>
 
   <groupId>org.jenkins-ci.plugins</groupId>
   <artifactId>log-command</artifactId>
